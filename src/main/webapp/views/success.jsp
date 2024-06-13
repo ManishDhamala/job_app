@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="com.project.jobwebapp.model.JobPost" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page isELIgnored="false" %>
@@ -21,8 +21,8 @@
             margin-bottom: 20px;
         }
 
-        .bg-clr{
-            background-color:#f1faee;
+        .bg-clr {
+            background-color: #f1faee;
         }
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">

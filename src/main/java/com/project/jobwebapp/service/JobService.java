@@ -13,11 +13,11 @@ public class JobService {
     @Autowired   // Service communicating with Repo or Repository (Dependent)
     private JobRepo repo;
 
-    public void addJob(JobPost jobPost){
+    public void addJob(JobPost jobPost) {
         repo.addJob(jobPost);
     }
 
-    public List<JobPost> getAllJobs(){
+    public List<JobPost> getAllJobs() {
         return repo.getAllJobs();
     }
 

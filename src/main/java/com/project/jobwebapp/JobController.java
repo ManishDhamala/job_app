@@ -4,9 +4,12 @@ import com.project.jobwebapp.model.JobPost;
 import com.project.jobwebapp.service.JobService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.List;
 
 @Controller
 public class JobController {
@@ -14,23 +17,28 @@ public class JobController {
     @Autowired   //Controller communicating with service (Dependent)
     private JobService service;
 
-    @GetMapping({"/","home"})   //GET method
-    public String home(){
+    @GetMapping({"/", "home"})   //GET method
+    public String home() {
         return "home";  //home.jsp
     }
 
     @GetMapping("addjob")    //GET method
-    public String addJob(){
+    public String addJob() {
         return "addjob";   //addjob.jsp
     }
 
     @PostMapping("handleForm")   //POST method
-    public String handleForm(JobPost jobPost){
+    public String handleForm(JobPost jobPost) {
         service.addJob(jobPost);
         return "success";  //success.jsp
     }
 
-
+    @GetMapping("viewalljobs")
+    public String viewAllJobs(Model model){
+        List<JobPost> jobs = service.getAllJobs();
+        model.addAttribute("jobPosts", jobs);
+        return "viewalljobs";
+    }
 
 
 }

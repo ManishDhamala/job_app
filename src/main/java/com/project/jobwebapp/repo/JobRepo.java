@@ -38,7 +38,7 @@ public class JobRepo {
 
         // Mobile App Developer Job Post
         jobs.add(new JobPost(5, "Mobile App Developer", "Experience in mobile app development for iOS and Android",
-                        3, List.of("iOS Development", "Android Development", "Mobile App")));
+                3, List.of("iOS Development", "Android Development", "Mobile App")));
 
         // DevOps Engineer Job Post
         jobs.add(
@@ -47,11 +47,11 @@ public class JobRepo {
 
         // UI/UX Designer Job Post
         jobs.add(new JobPost(7, "UI/UX Designer", "Create engaging user experiences and intuitive user interfaces",
-                        2, List.of("User Experience", "User Interface Design", "Prototyping")));
+                2, List.of("User Experience", "User Interface Design", "Prototyping")));
 
         // Cybersecurity Analyst Job Post
         jobs.add(new JobPost(8, "Cybersecurity Analyst", "Protect computer systems and networks from cyber threats",
-                        4, List.of("Cybersecurity", "Network Security", "Incident Response")));
+                4, List.of("Cybersecurity", "Network Security", "Incident Response")));
 
         // Full Stack Developer Job Post
         jobs.add(new JobPost(9, "Full Stack Developer", "Experience in both front-end and back-end development",
@@ -95,7 +95,7 @@ public class JobRepo {
 
         // Job Post 18
         jobs.add(new JobPost(18, "Backend Developer", "Build server-side logic and databases for web applications",
-                        4, List.of("Java", "Spring", "Node.js", "MongoDB")));
+                4, List.of("Java", "Spring", "Node.js", "MongoDB")));
 
         // Job Post 19
         jobs.add(new JobPost(19, "Game Developer", "Create and optimize games for various platforms", 3,
@@ -103,17 +103,17 @@ public class JobRepo {
 
         // Job Post 20
         jobs.add(new JobPost(20, "IT Project Manager", "Lead and manage IT projects from initiation to completion",
-                        6, List.of("Project Management", "Agile", "Scrum", "Risk Management")));
+                6, List.of("Project Management", "Agile", "Scrum", "Risk Management")));
 
     }
 
-    public List<JobPost> getAllJobs(){
+    public List<JobPost> getAllJobs() {
         return jobs;
     }
 
-    public void addJob(JobPost job){
+    public void addJob(JobPost job) {
         jobs.add(job);
-        System.out.println(jobs);
+        //System.out.println(jobs);
     }
 
 

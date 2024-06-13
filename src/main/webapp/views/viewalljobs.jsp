@@ -1,6 +1,6 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java"%>
-<%@ taglib prefix="ab" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ page isELIgnored="false"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="ab" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page isELIgnored="false" %>
 <%@ page import="java.util.List" %>
 <%@ page import="com.project.jobwebapp.model.JobPost" %>
 <%@ page import="com.project.jobwebapp.repo.JobRepo" %>
@@ -34,7 +34,7 @@
     </div>
 </nav>
 
-<ab:set var="jobPosts" value="${jobPosts}" />
+<ab:set var="jobPosts" value="${jobPosts}"/>
 
 <div class="container mt-5">
     <h2 class="mb-4 text-center font-weight-bold">Job Post List</h2>

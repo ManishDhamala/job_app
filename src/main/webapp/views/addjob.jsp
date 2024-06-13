@@ -1,7 +1,7 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@ page contentType="text/html;charset=UTF-8" language="java"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ page isELIgnored="false"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page isELIgnored="false" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -107,7 +107,8 @@
                                 <option value="Raspberry Pi">Raspberry Pi</option>
                                 <option value="Arduino">Arduino</option>
                                 <option value="IoT (Internet of Things)">IoT (Internet
-                                    of Things)</option>
+                                    of Things)
+                                </option>
                                 <option value="Apache Kafka">Apache Kafka</option>
                                 <option value="Elasticsearch">Elasticsearch</option>
                                 <option value="Unity">Unity</option>
@@ -128,21 +129,25 @@
                                 <option value="Docker">Docker</option>
                                 <option value="Jenkins">Jenkins</option>
                                 <option value="AWS (Amazon Web Services)">AWS (Amazon
-                                    Web Services)</option>
+                                    Web Services)
+                                </option>
                                 <option value="Azure">Azure</option>
                                 <option value="Google Cloud">Google Cloud</option>
                                 <option value="DevOps">DevOps</option>
                                 <option value="Blockchain">Blockchain</option>
                                 <option value="Machine Learning">Machine Learning</option>
                                 <option value="Artificial Intelligence">Artificial
-                                    Intelligence</option>
+                                    Intelligence
+                                </option>
                                 <option value="Cybersecurity">Cybersecurity</option>
                                 <option
                                         value="CISSP (Certified Information Systems Security Professional)">CISSP
-                                    (Certified Information Systems Security Professional)</option>
+                                    (Certified Information Systems Security Professional)
+                                </option>
                                 <option value="CompTIA Security+">CompTIA Security+</option>
                                 <option value="Certified Ethical Hacker (CEH)">Certified
-                                    Ethical Hacker (CEH)</option>
+                                    Ethical Hacker (CEH)
+                                </option>
                                 <option value="Scrum">Scrum</option>
                                 <option value="Agile">Agile</option>
                                 <option value="Kanban">Kanban</option>
@@ -163,21 +168,25 @@
                                 <option value="Docker">Docker</option>
                                 <option value="Jenkins">Jenkins</option>
                                 <option value="AWS (Amazon Web Services)">AWS (Amazon
-                                    Web Services)</option>
+                                    Web Services)
+                                </option>
                                 <option value="Azure">Azure</option>
                                 <option value="Google Cloud">Google Cloud</option>
                                 <option value="DevOps">DevOps</option>
                                 <option value="Blockchain">Blockchain</option>
                                 <option value="Machine Learning">Machine Learning</option>
                                 <option value="Artificial Intelligence">Artificial
-                                    Intelligence</option>
+                                    Intelligence
+                                </option>
                                 <option value="Cybersecurity">Cybersecurity</option>
                                 <option
                                         value="CISSP (Certified Information Systems Security Professional)">CISSP
-                                    (Certified Information Systems Security Professional)</option>
+                                    (Certified Information Systems Security Professional)
+                                </option>
                                 <option value="CompTIA Security+">CompTIA Security+</option>
                                 <option value="Certified Ethical Hacker (CEH)">Certified
-                                    Ethical Hacker (CEH)</option>
+                                    Ethical Hacker (CEH)
+                                </option>
                                 <option value="Scrum">Scrum</option>
                                 <option value="Agile">Agile</option>
                                 <option value="Kanban">Kanban</option>
@@ -185,7 +194,8 @@
                                 <option value="Raspberry Pi">Raspberry Pi</option>
                                 <option value="Arduino">Arduino</option>
                                 <option value="IoT (Internet of Things)">IoT (Internet
-                                    of Things)</option>
+                                    of Things)
+                                </option>
                                 <option value="Apache Kafka">Apache Kafka</option>
                                 <option value="Elasticsearch">Elasticsearch</option>
                                 <option value="Unity">Unity</option>
@@ -202,7 +212,8 @@
                                 <option value="Raspberry Pi">Raspberry Pi</option>
                                 <option value="Arduino">Arduino</option>
                                 <option value="IoT (Internet of Things)">IoT (Internet
-                                    of Things)</option>
+                                    of Things)
+                                </option>
                                 <option value="Apache Kafka">Apache Kafka</option>
                                 <option value="Elasticsearch">Elasticsearch</option>
                                 <option value="Unity">Unity</option>
@@ -219,7 +230,6 @@
         </div>
     </div>
 </div>
-
 
 
 <!-- Add the Bootstrap JS and Popper.js scripts -->

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8" %>
 
 
 <!DOCTYPE html>
@@ -27,8 +27,8 @@
             margin: 0;
         }
 
-        .bg-clr{
-            background-color:#f1faee;
+        .bg-clr {
+            background-color: #f1faee;
         }
 
 
@@ -55,7 +55,7 @@
                     Jobs</a></li>
 
                 <li class="nav-item"><a class="nav-link"
-                                        href="https://telusko.com/">Contact</a></li>
+                                        href="https://www.manishdhamala.com.np/">Contact</a></li>
             </ul>
         </div>
     </div>

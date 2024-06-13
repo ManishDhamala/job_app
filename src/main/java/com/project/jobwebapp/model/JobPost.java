@@ -20,5 +20,4 @@ public class JobPost {
     private List<String> postTechStack;
 
 
-
 }
