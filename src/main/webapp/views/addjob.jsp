@@ -34,7 +34,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-warning">
     <div class="container">
-        <a class="navbar-brand fs-1 fw-medium" href="#">Telusko Job
+        <a class="navbar-brand fs-1 fw-medium" href="#">Job
             Portal Web App</a>
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -45,9 +45,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="viewalljobs">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="viewalljobs">All Jobs</a></li>
 
-                <li class="nav-item"><a class="nav-link" href="https://telusko.com/">Contact</a>
+                <li class="nav-item"><a class="nav-link" href="https://www.manishdhamala.com.np/">Contact</a>
                 </li>
             </ul>
         </div>

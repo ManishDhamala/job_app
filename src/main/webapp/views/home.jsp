@@ -39,7 +39,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-clr">
     <div class="container">
-        <a class="navbar-brand fs-1 fw-medium " href="#">Telusko Job
+        <a class="navbar-brand fs-1 fw-medium " href="#"> Job
             Portal Web App</a>
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -67,10 +67,10 @@
         <div class="col-md-6 mb-5">
             <div class="card bg-warning">
                 <div class="card-body text-center">
-                    <h5 class="card-title">View AllJobs</h5>
+                    <h5 class="card-title">View All Jobs</h5>
                     <form action="/viewalljobs" method="get">
                         <!-- Add your form fields here -->
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">View All Jobs</button>
                     </form>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                     <form action="/addjob" method="get">
                         <!-- Your form fields go here if needed -->
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Add Jobs</button>
                     </form>
 
                 </div>
